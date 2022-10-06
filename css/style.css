@@ -1,0 +1,94 @@
+html {
+    font-family: 'Forum',serif;
+    font-size: 62.5%;
+    /*same as 10 px*/
+}
+
+header {
+    height: 11vh;
+    border-bottom:1px solid black ;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.header-wrapper {
+    max-width:120rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 2rem;
+}
+
+.header-wrapper nav {
+    height: 100%;
+    flex-basis: 40%;
+}
+
+.header-wrapper nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrapper nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    width: 33.3%;
+}
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.heading-1 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #111;
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.search-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    flex-basis: 15%;
+}
+
+.search-input {
+    font-family: inherit;
+    font-size: 1.8rem;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.search-input:focus {
+    outline: none;
+}
+
+.not-needed {
+    height: 180vh;
+}
+
+.sc-icons {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-basis: 10%;
+    align-items: center;
+    gap: 3px;
+}
+
+.sc-icon {
+    border: 1px solid black;
+    width: 3rem;
+    height: 3rem;
+}
